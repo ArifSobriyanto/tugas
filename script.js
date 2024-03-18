@@ -8,7 +8,10 @@ function calculate() {
         case 'add':
             result = num1 + num2;
             break;
-        
+        case 'subtract':
+            result = num1 - num2;
+            break;
+       
         default:
             result = "Error: Invalid operator!";
     }
